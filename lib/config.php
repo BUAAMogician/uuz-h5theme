@@ -12,9 +12,9 @@
 //画像ファイルを /images に入れてください
 
 //html_lang
-$html_lang = "ja";
+$html_lang = "zh";
 //定义网站标题 //サイトのタイトル
-$title = "雨宮千夏の博麗神社";
+$title = "Silence2";
 
 //网站图标 //タグに表示するアイコン（ファビコン）の設定
 $tag_icon = "reimu_48x48_pixiv_28660154.png";
@@ -40,30 +40,32 @@ $sec_title = "永遠とはそういうこと<br>ワビの世界よ";
 //如需设置其他图标，请参考 fontawesome.io/icons/ //ほかのアイコンを設定したい場合は fontawesome.io/icons/ に参照してください
 //设置第一个图标、替代文字及链接 //一番目のアイコン、テキスト及びURLの設定
 $icon_style_01 = "brands"; //图标风格(Style)，具体参考 fontawesome.io/icons/ //アイコンの様式(Style) fontawesome.io/icons/ に参照してください
-$site_icon_01 = "fa-twitter";
-$site_name_01 = "Twitter";
-$site_url_01 = "https://twitter.com/BakaChinatsu/";
+$site_icon_01 = "fa-github";
+$site_name_01 = "Github";
+$site_url_01 = "https://github.com/BUAAMogician/";
 
 //设置第二个图标及替代文字 //二番目のアイコン、テキスト及びURLの設定
 $icon_style_02 = "brands"; //图标风格(Style)，具体参考 fontawesome.io/icons/ //アイコンの様式(Style) fontawesome.io/icons/ に参照してください
 $site_icon_02 = "fa-github";
 $site_name_02 = "GitHub";
-$site_url_02 = "https://github.com/BakaChinatsu/";
+$site_url_02 = "https://github.com/fzyxh/";
 
 //设置第三个图标及替代文字(永远怀念 Google+ ） //三番目のアイコン、テキスト及びURLの設定
 //$site_icons_03 = "fa-google-plus";
 //$site_txt_03 = "Google+";
 //$site_url_03 = "https://plus.google.com/u/0/106072901155470558440";
-$icon_style_03 = "solid"; //图标风格(Style)，具体参考 http://fontawesome.io/icons/ //アイコンの様式(Style) http://fontawesome.io/icons/ に参照してください
-$site_icon_03 = "fa-camera-retro";
-$site_name_03 = "Photos";
-$site_url_03 = "https://photos.app.goo.gl/CLZQrE0LrK5dSVFE2";
+$icon_style_03 = "regular"; //图标风格(Style)，具体参考 http://fontawesome.io/icons/ //アイコンの様式(Style) http://fontawesome.io/icons/ に参照してください
+$site_icon_03 = "fa-envelope";
+$site_name_03 = "Email";
+$site_url_03 = "mailto:pidtlsj@qq.com";
 
 //设置下方 button 信息 //アイコン下側のボタンの設定
 $button_name = "Blog";
-$button_url = "https://blog.uuz.moe";
+$button_url = "https://blog.phinney.top";
+
+$button_name = "Blog";
+$button_url = "https://blog.phinney.top";
 
 //设置版权信息 //Copyrightの設定
-$copyright = "Amamiya Chinatsu";
+$copyright = "2021 Phinney";
 ?>
-
