@@ -1,4 +1,4 @@
-A HTML5 theme for https://uuz.moe
+A HTML5 theme for https://phinney.top
 
 Demonstration: https://uuz.moe
 

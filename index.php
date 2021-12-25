@@ -23,7 +23,7 @@ include_once 'lib/config.php';
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <!-- タグに表示するアイコン -->
-        <link rel="icon" sizes="48x48" type="image/png" href="<?php echo $tag_icon;?>">
+        <link rel="icon" sizes="48x48" type="image/png" href="images/<?php echo $tag_icon;?>">
         <!-- ブラウザ要素の色 -->
         <meta name="theme-color" content="<?php echo $theme_color;?>">
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -121,7 +121,8 @@ include_once 'lib/config.php';
 							</ul>
 						</footer>
 						<ul class="actions special">
-								<li><a href="<?php echo $button_url;?>" class="button"><?php echo $button_name;?></a></li>
+								<li><a href="<?php echo $button_url_01;?>" class="button"><?php echo $button_name_01;?></a></li>
+								<li><a href="<?php echo $button_url_02;?>" class="button"><?php echo $button_name_02;?></a></li>
 							</ul>
 					</section>
 

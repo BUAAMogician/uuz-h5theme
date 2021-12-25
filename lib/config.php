@@ -14,27 +14,35 @@
 //html_lang
 $html_lang = "zh";
 //定义网站标题 //サイトのタイトル
-$title = "Silence2";
+$title = "Phinney的疗养院";
 
 //网站图标 //タグに表示するアイコン（ファビコン）の設定
-$tag_icon = "reimu_48x48_pixiv_28660154.png";
+$tag_icon = "AdminIcon.png";
 
 //定义 theme-color //ブラウザ要素の色
 $theme_color = "#22849f";
 
 //设置背景图像 //背景の設定
-$background_filename = "50327795_p0.jpg";
+$background_filename = "002-4K.png";
 
 //设置头像 //アバターの設定
-$avatar_filename = "reimu_pixiv_28660154.png";
+$avatar_filename = "AdminIcon.jpg";
 $avatar_height = "130px"; //高度 //高さ
 $avatar_width = "130px"; //宽度 //幅
 
 //设置主标题 //表題の設定
-$main_title = "雨宮千夏";
+$main_title = "Phinney";
 
 //设置二级标题 //副題の設定
-$sec_title = "永遠とはそういうこと<br>ワビの世界よ";
+//不想使用二级标题可以用一言代替
+$hitokoto_url = "https://v1.hitokoto.cn/?encode=text&charset=utf-8";
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $hitokoto_url); //参数为1表示传输数据，为0表示直接输出显示。
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //参数为0表示不带头文件，为1表示带头文件
+curl_setopt($ch, CURLOPT_HEADER,0);
+$sec_title = curl_exec($ch);
+curl_close($ch);
+// $sec_title = "永遠とはそういうこと<br>ワビの世界よ";
 
 //设置链接及图标 //アイコン及びURLの設定
 //如需设置其他图标，请参考 fontawesome.io/icons/ //ほかのアイコンを設定したい場合は fontawesome.io/icons/ に参照してください
@@ -60,11 +68,11 @@ $site_name_03 = "Email";
 $site_url_03 = "mailto:pidtlsj@qq.com";
 
 //设置下方 button 信息 //アイコン下側のボタンの設定
-$button_name = "Blog";
-$button_url = "https://blog.phinney.top";
+$button_name_01 = "Blog";
+$button_url_01 = "https://blog.phinney.top";
 
-$button_name = "Blog";
-$button_url = "https://blog.phinney.top";
+$button_name_02 = "Unknown";
+$button_url_02 = "https://www.phinney.top";
 
 //设置版权信息 //Copyrightの設定
 $copyright = "2021 Phinney";
